@@ -1,0 +1,238 @@
+.prizing-sec{
+    border-left: 3px solid #606060;
+    background-color: #F7F9FC;
+}
+.prizing-heading p {
+    width: 400px;
+    margin: auto;
+    font-size: 16px;
+    color: #606060;
+}
+.prizing-heading h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.prizing-heading h1::after {
+    content: '';
+    top: 146%;
+    left: 48%;
+    height: 2px;
+    width: 51px;
+    background-color: #5252f4;
+    position: absolute;
+}
+.prizing-heading h6 {
+    font-size: 20px;
+    color: #2c7bf2;
+}
+
+.prizing-card {
+    background-color: #fff;
+    text-align: center;
+    padding: 0 100px;
+    transition: .9s;
+}
+.prizing-card:hover .prizing-btn {
+    background-color: #fff;
+    color: #2c7bf2;
+}
+.prizing-card:hover{
+    background-color: #5252f4;
+    
+}
+.prizing-card:hover p{
+    color: #fff;
+    
+}
+.prizing-card:hover h5{
+    color: #fff;
+    
+}
+.prizing-card:hover h1{
+    color:#fff;
+
+    
+}
+
+.prizing-card:hover h4{
+    border-bottom: 1px solid #fff;
+    
+}
+.prizing-card h5 {
+    font-size: 27px;
+    color: #000;
+    transition: .9s;
+    
+}
+
+.prizing-card h4 {
+    color: #fff;
+    padding-top: 7px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    padding-bottom: 85px;
+    border-bottom: 1px solid #60606029;
+    font-size: 17px;
+    transition: .9s;
+}
+.prizing-card h1 {
+    
+    font-size: 49px;
+    font-weight: 700;
+    
+    color: #000;
+    
+    transition: .9s;
+}
+
+.prizing-card p {
+    padding: 3px 0;
+    color: #606060;
+    font-size: 19px;
+    transition: .9s;
+}
+.prizing-btn:hover{
+    color: #fff !important;
+}
+.prizing-btn  {
+    border: 1px solid #2c7bf2;
+    margin-top: 10px;
+    border-radius: 27px;
+    width: 181px;
+    background-color: #2c7bf2;
+    height: 52px;
+    color: #fff;
+    margin-bottom: 23px;
+    text-decoration: none;
+    position: relative;
+    
+}
+.prizing-btn ::before {
+    content: '';
+    width: 0%;
+    left: 0% !important;
+    transition: .3s;
+    top: 100% !important;
+    height: 100% !important;
+    
+    background-color: #5252f4 !important;
+    
+    position: absolute;
+    border-radius: 27px !important;
+}
+.prizing-btn:hover::before{
+    width: 100% !important;
+    
+}
+/* BANNER */
+.banner {
+    background: linear-gradient(rgb(0 0 255 / 64%),rgb(0 0 255 / 46%)),url(https://i.postimg.cc/9MpP0cBx/free-bg.jpg) bottom center;
+    background-repeat: no-repeat;
+    padding: 180px 0;
+    background-size: cover;
+}
+.banner-text .prizing-heading h6{
+    color: #fff;
+
+}
+.banner-text .prizing-heading h1{
+    color: #fff;
+    position: relative;
+
+}
+.banner-text .prizing-heading h1::after {
+    content: '';
+    height: 2px;
+    width: 59px;
+    left: 47%;
+    top: 145%;
+    position: absolute;
+    background-color: #fff;
+}
+.banner-text .prizing-heading p{
+    color: #fff;
+    font-weight: 600;
+}
+.banner-btn{
+    background-color: #fff;
+    margin-top: 60px;
+    color: blue;
+    position: relative;
+    font-weight: bold;
+    z-index: 1;
+    border-radius: 27px;
+    width: 181px;
+    height: 55px;
+
+}
+.banner-btn:hover{
+    color: #fff !important;
+}
+.banner-btn::after{
+    content: '';
+    width: 0%;
+    left: 0%;
+    transition: .3s;
+    top: 0%;
+    height: 100%;
+    z-index: -1;
+    background-color: #5252f4;
+    position: absolute;
+    border-radius: 27px;
+}
+.banner-btn:hover::after{
+    
+    width: 100%;
+    
+}
+.form{
+    background-color: #5252f4;
+}
+.form {
+    background-color: #5252f4;
+    border-radius: 7px;
+}
+input[type="email"] {
+    width: 268px;
+    height: 39px;
+    border-radius: 20px;
+    outline: 0;
+    display: inline-block;
+    border: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 16px;
+}
+input[type="submit"] {
+    width: 170px;
+    font-size: 17px;
+    outline: 0;
+    font-weight: 500;
+    border-radius: 30px;
+    height: 44px;
+    border: 1px solid #fff;
+    background: #5252f4;
+    color: #fff;
+}
+.last-sec{
+    background-color: #F8F9FA;
+    border-left: 3px solid rgb(0, 0, 0);
+}
+.get-stard {
+    background-color: #fff;
+    width: 426px;
+    padding: 35px 42px;
+}
+.get-stard h3 {
+    padding-bottom: 53px;
+    font-size: 26px;
+    font-weight: 500;
+}
+.last-btn {
+    width: 140px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
